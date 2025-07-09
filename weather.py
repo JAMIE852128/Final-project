@@ -232,6 +232,7 @@ def main():
         get_weatherData(city, start_date, end_date)
     except ValueError:
         print('Invalid date format, please use yyyy-mm-dd.')
-
+        print()
 if __name__ == '__main__':
+    # main
     main()
